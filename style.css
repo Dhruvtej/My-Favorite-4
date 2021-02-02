@@ -76,26 +76,48 @@ h2 {
 
 .links {
     float: left;
-    color:#fff;
+    color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
     font-family: fantasy;
-    font-size:20px;
-    
+    font-size: 20px;
+
 }
-.links:hover{
-    background:linear-gradient(gold 0%, silver 100%);
+
+.links:hover {
+    background: linear-gradient(gold 0%, silver 100%);
 }
-#name{
+
+#name {
     font-size: 30px;
     line-height: 1.2;
     font-family: 'Cinzel Decorative', cursive;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-a{
- text-decoration: none;   
+
+a {
+    text-decoration: none;
+}
+
+
+#ole kirk {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+	width:270px;
+}
+
+#ole kirk:hover {
+    transform: scale(0.9)
+}
+#Nathan{
+	transition: transform .2s;
+	border: 10px solid #AAAAAA
+}
+#Nathan:hover{
+	transform: scale(0.9)
 }
